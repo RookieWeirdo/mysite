@@ -1,0 +1,3 @@
+(mysite_env) root@VM-0-12-ubuntu:/home/mysite# apt-get install libssl-dev
+(mysite_env) root@VM-0-12-ubuntu:/home/mysite# pip install mysqlclient
+(mysite_env) root@VM-0-12-ubuntu:/home/mysite# apt-get install openssl
