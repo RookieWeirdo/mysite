@@ -21,7 +21,7 @@ SECRET_KEY = os.environ['SECRET_KEY']
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['49.235.34.97']
 
 
 # Database
@@ -42,11 +42,11 @@ DATABASES = {
 # 发送邮件设置
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.qq.com'
-EMAIL_PORT = 465
+EMAIL_PORT = 25
 EMAIL_HOST_USER = '2053221296@qq.com'
 EMAIL_HOST_PASSWORD = os.environ['EMAIL_HOST_PASSWORD']
 EMAIL_SUBJECT_PREFIX = '[张玲学的博客] '
-EMAIL_USE_SSL = True   # 与SMTP服务器通信时，是否启动TLS链接(安全链接)
+EMAIL_USE_TLS = True   # 与SMTP服务器通信时，是否启动TLS链接(安全链接)
 
 
 ADMINS = (
