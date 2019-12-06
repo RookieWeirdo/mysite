@@ -50,7 +50,7 @@ EMAIL_USE_TLS = True   # 与SMTP服务器通信时，是否启动TLS链接(安�
 
 
 ADMINS = (
-    ('admin', 'zlx15616073655@qq.com'),
+    ('admin', '2053221296@qq.com'),
 )
 
 # 日志文件
