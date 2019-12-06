@@ -46,11 +46,11 @@ EMAIL_PORT = 25
 EMAIL_HOST_USER = '2053221296@qq.com'
 EMAIL_HOST_PASSWORD = os.environ['EMAIL_HOST_PASSWORD']
 EMAIL_SUBJECT_PREFIX = '[张玲学的博客] '
-EMAIL_USE_TLS = True  # 与SMTP服务器通信时，是否启动TLS链接(安全链接)
+EMAIL_USE_TLS = True   # 与SMTP服务器通信时，是否启动TLS链接(安全链接)
 
 
 ADMINS = (
-    ('admin', 'zlx15616073655@163.com'),
+    ('admin', 'zlx15616073655@qq.com'),
 )
 
 # 日志文件
