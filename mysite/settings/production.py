@@ -22,7 +22,7 @@ SECRET_KEY = os.environ['SECRET_KEY']
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['49.235.34.97']
 
 # Database
 # https://docs.djangoproject.com/en/2.0/ref/settings/#databases
